@@ -12,5 +12,5 @@ def insertionSort(array,elementos):
     return array; 
 import time;
 tiempo1 = time.time(); 
-print("El arreglo oder nado : %s " % (insertionSort(array,14)));
+print("El arreglo ordenado : %s " % (insertionSort(array,14)));
 print ("El tiempo que tomó : %s " % str(time.time() - tiempo1)); 
